@@ -17,3 +17,18 @@ function Women() {
 function Men() {
   document.location.href = "men.html";
 }
+
+function search() {
+  let x = document.getElementById("search").value;
+  document.location.href = `https://www.flipkart.com/search?q=${x}`;
+}
+
+document
+  .getElementById("search")
+  .addEventListener("keypress", function (event) {
+    if (event.key == "Enter") {
+      event.preventDefault();
+      let x = document.getElementById("search").value;
+      document.location.href = `https://www.farfetch.com/in/shopping/men/search/items.aspx?q=${x}`;
+    }
+  });

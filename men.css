@@ -99,14 +99,14 @@
     }
     #head222 input{
         width: 300px;
-        height: 50px;
+        height: 35px;
         justify-content: center;
         align-items: center;
     }
     #head222 i{
         font-size: 30px;
         align-items: center;
-        margin-top: 15px;
+        margin-top: 5px;
     }
     #body1{
         width: 80%;
@@ -419,4 +419,43 @@
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+  }
+  @media all and (max-width: 767px){
+    *{
+        margin: 0;
+        
+       
+    }
+    #heading{
+        width: 100%;
+    }
+    #heading2{
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+    img{
+        width: 120px;
+    }
+    #footer{
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: grid;
+    }
+    #body4{
+        display: grid;
+    }
+    #body7{
+        display: grid;
+    }
+    #body2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 350px;
+        margin-bottom: 100px;
+       
+    }
   }  
