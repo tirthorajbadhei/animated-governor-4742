@@ -15,12 +15,12 @@ function Women() {
   document.location.href = "women.html";
 }
 function Men() {
-  document.location.href = "men.html";
+  document.location.href = "index.html";
 }
 
 function search() {
   let x = document.getElementById("search").value;
-  document.location.href = `https://www.flipkart.com/search?q=${x}`;
+  document.location.href = `https://www.farfetch.com/in/shopping/men/search/items.aspx?q=${x}`;
 }
 
 document
